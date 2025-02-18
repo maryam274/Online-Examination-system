@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination System</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/sigup.css">
+</head>
+
+<div class="container">
+    <div class="left">
+        <img class="img_left" src="../assest/signoverlay.svg" alt="Left Image" />
+        <img class="img_right" src="../assest/signoverlay2.svg" alt="Right Image" />
+        <img class="img_bottom" src="../assest/signoverlay3.svg" alt="Bottom Image"/>
+    </div>
+    <div class="right">
+        <h2>Welcome to our Online Examination</h2>
+        <form class="form" id="signupForm">
+            <input type="text" id="firstName" placeholder="First Name" required>
+            <span class="error" id="firstNameError">First name should only contain alphabetical characters.</span>
+
+            <input type="text" id="lastName" placeholder="Last Name" required>
+            <span class="error" id="lastNameError">Last name should only contain alphabetical characters.</span>
+
+            <input type="email" id="email" placeholder="Email" required>
+            <span class="error" id="emailError">Please enter a valid email address.</span>
+
+            <!-- <input type="password" id="password" placeholder="Password" required> -->
+            <div class="password_field">
+                <input type="password" id="password" placeholder="Password" required>
+                <i class="fas fa-eye toggle_password" id="togglePassword1"></i>
+            </div>
+            <span class="error" id="passwordError">Password must be at least 8 characters long and contain an uppercase
+                letter, a number, and a special character.</span>
+            <div class="password_field">
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                <i class="fas fa-eye toggle_password" id="togglePassword2"></i>
+            </div>
+            <!-- <input type="password" id="confirmPassword" placeholder="Confirm Password" required> -->
+            <span class="error" id="confirmPasswordError">Passwords do not match.</span>
+
+            <button type="submit">Sign Up</button>
+        </form>
+        <div class="links">
+            <p>Already have an account? <a href="./login.html">Login</a></p>
+        </div>
+    </div>
+</div>
+
+<script src="../js/signup.js"></script>
+</body>
+
+</html>

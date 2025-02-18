@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="../css/Exam.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz Application</h1>
+            <div class="timer" id="timer">01:00</div>
+        </header>
+        <!-- Tabs Section -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="questions-tab">Questions</button>
+            <button class="tab-btn" data-tab="flagged-tab">
+                Flagged
+                <span id="flagged-tab-count" class="tab-count"></span>
+            </button>
+            
+        </div>
+
+        <!-- Tab Content -->
+        <div id="questions-tab" class="tab-content active"></div>
+        <div id="flagged-tab" class="tab-content"></div>
+        
+
+        <!-- Navigation Buttons -->
+        <div class="navigation">
+            <button id="prev-btn" class="nav-btn">Previous</button>
+            <span class="q_no"></span>
+            <button id="next-btn" class="nav-btn">Next</button>
+        </div>
+
+        <!-- Submit Button -->
+        <button id="submit-btn" class="nav-btn">Submit</button>
+    </div>
+
+    <script src="../js/Exam.js"></script>
+</body>
+
+</html>

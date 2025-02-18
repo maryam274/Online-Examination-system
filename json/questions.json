@@ -1,0 +1,217 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": ["Paris", "London", "Berlin", "Madrid"],
+    "answer": 0,
+    "type": "easy"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "options": ["Earth", "Venus", "Jupiter", "Mars"],
+    "answer": 2,
+    "type": "easy"
+  },
+  {
+    "question": "What is the square root of 144?",
+    "options": ["10", "11", "12", "13"],
+    "answer": 2,
+    "type": "easy"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Claude Monet"
+    ],
+    "answer": 0,
+    "type": "easy"
+  },
+  {
+    "question": "What is the largest ocean in the world?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "answer": 3,
+    "type": "easy"
+  },
+  {
+    "question": "What is the boiling point of water at sea level?",
+    "options": ["90°C", "100°C", "120°C", "80°C"],
+    "answer": 1,
+    "type": "easy"
+  },
+  {
+    "question": "What is 5 + 7?",
+    "options": ["10", "11", "12", "13"],
+    "answer": 2,
+    "type": "easy"
+  },
+  {
+    "question": "What color are bananas?",
+    "options": ["Red", "Yellow", "Green", "Blue"],
+    "answer": 1,
+    "type": "easy"
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "options": ["O2", "H2O", "CO2", "NaCl"],
+    "answer": 1,
+    "type": "easy"
+  },
+  {
+    "question": "What is the main language spoken in Spain?",
+    "options": ["English", "French", "Spanish", "German"],
+    "answer": 2,
+    "type": "easy"
+  },
+  {
+    "question": "Who developed the theory of relativity?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Nikola Tesla",
+      "Galileo Galilei"
+    ],
+    "answer": 1,
+    "type": "medium"
+  },
+  {
+    "question": "Which element has the atomic number 1?",
+    "options": ["Oxygen", "Hydrogen", "Carbon", "Nitrogen"],
+    "answer": 1,
+    "type": "medium"
+  },
+  {
+    "question": "In what year did the Titanic sink?",
+    "options": ["1912", "1914", "1920", "1905"],
+    "answer": 0,
+    "type": "medium"
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "Japan", "Thailand", "India"],
+    "answer": 1,
+    "type": "medium"
+  },
+  {
+    "question": "Who is known as the father of modern physics?",
+    "options": [
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Albert Einstein",
+      "Nikola Tesla"
+    ],
+    "answer": 2,
+    "type": "medium"
+  },
+  {
+    "question": "What is the freezing point of water in Celsius?",
+    "options": ["-10°C", "0°C", "10°C", "100°C"],
+    "answer": 1,
+    "type": "medium"
+  },
+  {
+    "question": "What is the chemical formula for carbon dioxide?",
+    "options": ["CO", "CO2", "C2O", "C2O2"],
+    "answer": 1,
+    "type": "medium"
+  },
+  {
+    "question": "What is 15 x 3?",
+    "options": ["30", "35", "45", "50"],
+    "answer": 2,
+    "type": "medium"
+  },
+  {
+    "question": "What is the capital of Italy?",
+    "options": ["Paris", "Rome", "Madrid", "Berlin"],
+    "answer": 1,
+    "type": "medium"
+  },
+  {
+    "question": "What is the largest mammal on Earth?",
+    "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+    "answer": 1,
+    "type": "medium"
+  },
+  {
+    "question": "Which country has the longest coastline in the world?",
+    "options": ["Canada", "Australia", "USA", "Russia"],
+    "answer": 0,
+    "type": "hard"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Au", "Ag", "Fe", "Pb"],
+    "answer": 0,
+    "type": "hard"
+  },
+  {
+    "question": "What is the tallest mountain in the world?",
+    "options": ["Mount Kilimanjaro", "Mount Everest", "Mount Fuji", "K2"],
+    "answer": 1,
+    "type": "hard"
+  },
+  {
+    "question": "What is the smallest planet in our solar system?",
+    "options": ["Mercury", "Mars", "Venus", "Earth"],
+    "answer": 0,
+    "type": "hard"
+  },
+  {
+    "question": "What is the largest desert in the world?",
+    "options": [
+      "Sahara Desert",
+      "Arabian Desert",
+      "Karakum Desert",
+      "Antarctic Desert"
+    ],
+    "answer": 3,
+    "type": "hard"
+  },
+  {
+    "question": "Who wrote 'War and Peace'?",
+    "options": [
+      "Leo Tolstoy",
+      "Fyodor Dostoevsky",
+      "Anton Chekhov",
+      "Alexander Pushkin"
+    ],
+    "answer": 0,
+    "type": "hard"
+  },
+  {
+    "question": "What is the speed of light in a vacuum?",
+    "options": ["300,000 km/s", "150,000 km/s", "500,000 km/s", "700,000 km/s"],
+    "answer": 0,
+    "type": "hard"
+  },
+  {
+    "question": "What is the atomic number of uranium?",
+    "options": ["90", "91", "92", "93"],
+    "answer": 2,
+    "type": "hard"
+  },
+  {
+    "question": "Which galaxy is closest to the Milky Way?",
+    "options": ["Andromeda", "Triangulum", "Whirlpool", "Sombrero"],
+    "answer": 0,
+    "type": "hard"
+  },
+  {
+    "question": "Who proposed the law of universal gravitation?",
+    "options": [
+      "Galileo Galilei",
+      "Albert Einstein",
+      "Isaac Newton",
+      "Johannes Kepler"
+    ],
+    "answer": 2,
+    "type": "hard"
+  }
+]

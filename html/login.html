@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination System</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<div class="container">
+    <div class="left">
+        <img src="../assest/background.svg" alt="">
+    </div>
+    <div class="right">
+        <h2>Welcome back<br> to our Online Examination</h2>
+        <form class="form" id="signupForm">
+
+            <input type="email" id="email" placeholder="Email" required>
+            <span class="error" id="emailError">Please enter a valid email address.</span>
+            <span class="error" id="userError">Email or pasword is not valid.</span>
+
+            <div class="password_field">
+                <input type="password" id="password" placeholder="Password" required>
+                <i class="fas fa-eye toggle_password" id="togglePassword1"></i>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+        <div class="links">
+            <p>Don't have any account?<a href="./signup.html">Sign up</a></p>
+        </div>
+    </div>
+</div>
+
+<script src="../js/login.js"></script>
+</body>
+
+</html>

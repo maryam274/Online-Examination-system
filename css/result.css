@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #091057;
+    color: rgba(255, 229, 207, 1);
+}
+
+header {
+    margin: 1rem 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.751);
+    background-color: #ffffff63;
+
+}
+
+.title {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    z-index: 2;
+
+}
+
+.title h1 {
+    font-size: 2.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+
+}
+
+.container figure {
+    margin: 0;
+    padding: 0;
+}
+
+.container figure .result_img {
+    width: 70%;
+    position: relative;
+}
+
+.container figure .overlay {
+    position: absolute;
+    top: 20%;
+    left: 31%;
+    width: 37%;
+    animation: floating 3s ease-in-out infinite;
+    z-index: 1;
+}
+
+/* Floating animation for .overlay */
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(15px);
+        /* Moves up */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Back to the original position */
+    }
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+    margin: 1rem 0 0.5rem 0;
+    position: relative;
+    z-index: 2;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgba(255, 229, 207, 1);
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    transition: 0.3s ease;
+    padding: 1rem 2rem;
+}
+
+.links .login {
+    background-color: #EC8305;
+
+}
+
+.links .signup {
+    border: #EC8305 solid 2px;
+
+}
+
+.links .login:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 136, 91);
+}
+
+.links .signup:hover {
+    background-color: #EC8305;
+}
+
+/* Responsive design */
+
+@media (min-width: 500px) and (max-width: 599px) {
+    header {
+        margin: 1rem 1rem;
+    }
+
+    .title h1 {
+        font-size: 1.5rem;
+    }
+
+    .container figure .result_img {
+        width: 90%;
+    }
+
+    .container figure .overlay {
+        top: -10%;
+        left: 0%;
+        width: 100%;
+    }
+
+    .result {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .links .login {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        margin: 1rem 0;
+    }
+}
+
+/* small screen phones */
+@media (max-width: 600px) {
+    header {
+        margin: 1rem 1rem;
+    }
+
+    .title h1 {
+        font-size: 1.5rem;
+    }
+
+    .container figure .result_img {
+        width: 90%;
+    }
+
+    .container figure .overlay {
+        top: 12%;
+        left: 2%;
+        width: 90%;
+    }
+
+    .links {
+        gap: 5rem;
+    }
+
+    .links .login {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        margin: 1rem 0;
+    }
+}
+
+/* big screen phones */
+@media (min-width: 601px) and (max-width: 767px) {
+    header {
+        margin: 1rem 1rem;
+    }
+
+    .title h1 {
+        font-size: 1.5rem;
+    }
+
+    .container figure .result_img {
+        width: 90%;
+    }
+
+    .container figure .overlay {
+        top: 9%;
+        left: 2%;
+        width: 90%;
+    }
+
+    .result {
+        font-size: 1.2rem;
+    }
+
+    .links {
+        gap: 5rem;
+    }
+
+    .links .login {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        margin: 1rem 0;
+    }
+}
+
+/* labtops */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        margin: 1rem 5rem;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+    }
+
+    .container figure .result_img {
+        width: 70%;
+    }
+
+    .container figure .overlay {
+        top: 8%;
+        left: 17%;
+        width: 60%;
+    }
+
+    .result {
+        font-size: 1.2rem;
+    }
+
+    .links {
+        gap: 10rem;
+    }
+
+    .links a {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+}
+
+/* comp */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    header {
+        margin: 1rem 5rem;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+    }
+
+    .container figure .result_img {
+        width: 70%;
+    }
+
+    .container figure .overlay {
+        top: 10%;
+        left: 25%;
+        width: 49%;
+    }
+
+    .result {
+        font-size: 1.2rem;
+    }
+
+    .links {
+        gap: 10rem;
+    }
+
+    .links a {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+
+}
+
+
+/* screens */
+@media (min-width: 1281px) and (max-width: 1440px) {
+    header {
+        margin: 1rem 5rem;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+    }
+
+    .container figure .result_img {
+        width: 70%;
+    }
+
+    .container figure .overlay {
+        top: 8%;
+        left: 30%;
+        width: 40%;
+    }
+
+    .result {
+        font-size: 1.2rem;
+    }
+
+    .links {
+        gap: 10rem;
+    }
+
+    .links a {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    header {
+        margin: 1rem 5rem;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+    }
+
+    .container figure .result_img {
+        width: 70%;
+    }
+
+    .container figure .overlay {
+        top: 8%;
+        left: 31%;
+        width: 38%;
+    }
+
+    .result {
+        font-size: 1.2rem;
+    }
+
+    .links {
+        gap: 10rem;
+    }
+
+    .links a {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+}
+
+/* big screens */
+
+@media (min-width: 1921px) {
+    header {
+        margin: 1rem 5rem;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+    }
+
+    .container figure .result_img {
+        width: 70%;
+    }
+
+    .container figure .overlay {
+        top: 15%;
+        left: 30%;
+        width: 48%;
+    }
+
+    .result {
+        font-size: 1.2rem;
+    }
+
+    .links {
+        gap: 10rem;
+    }
+
+    .links a {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+}
